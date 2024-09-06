@@ -6,15 +6,15 @@
 		}
 		
 		polygon.one {
-			fill: rgba(255,255,255,0.225);
+			fill: rgba(255,255,255,.033);
 		}
 		
 		polygon.two {
-			fill: rgba(255,255,255,0.15);
+			fill: rgba(255,255,255,0.013);
 		}
 		
 		polygon.three {
-			fill: rgba(255,255,255,0.075);
+			fill: rgba(255,255,255,0.010);
 		}
 		
     ]]></style>
