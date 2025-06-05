@@ -12,16 +12,6 @@
           <p>Solidity Developer • NFT Collector • Web3 Blogger</p>
 
 
-<p>
-              <a
-                href="https://paragraph.com/@zubyoha"
-                style="text-decoration: underline; color: rgb(245, 245, 245)"
-                onmouseover="this.style.color='gray'"
-                onmouseout="this.style.color='whitesmoke'"
-              >
-                Subscribe To My Web3 Newsletter
-              </a>
-            </p>
 
               👋🏼 I'm Zuby Oha (Nzube Ohazurike) I'm a digital asset trader, NFT entreprenuer and web3 blogger. My passion for art and music inspired me to explore the interface of decentralised ownership and finance. When i'm not coding or creating art, you can find me playing video games or playing with my dog jack.
 

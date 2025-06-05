@@ -89,23 +89,62 @@
           <img
             src="https://res.cloudinary.com/djxo8hwtc/image/upload/c_pad,w_195,h_195/v1725494446/a0a91b2e55163486e40b81fe76307792_1_hooinl.avif"
           />
-
+          <hr />
           <p>
-            👋🏼 You can find me at
-            <a href="https://app.ens.domains/zubyoha.eth"> zubyoha.eth</a> on
-            ENS
-
-            <br />
-
-            <a href="https://farcaster.xyz/zubyoha.eth"> Farcaster,</a>
-            <a href="https://zora.co/@zubyoha"> Zora,</a>
-            <a href="https://rodeo.club/@zubyoha/collection"> Rodeo,</a>
-            <a href="https://paragraph.com/@zubyoha"> Paragraph,</a> &amp;
-            <a href="https://mirror.xyz/zubyoha.eth">Mirror.</a>
+            👋🏼 I'm <strong>Zuby</strong>, an NFT artist, collector &amp; trader.
+            <!--  and NodeJS enthusiast. I create and deploy smart contracts
+            on Ethereum and other EVM-compatible blockchains. I also design and
+            mint NFTs, focusing on art that explores the intersection of
+            technology and creativity. -->
+          </p>
+          <p>
+            You can find me at
+            <a
+              href="https://app.ens.domains/zubyoha.eth"
+              style="text-decoration: underline; font-weight: bold"
+            >
+              zubyoha.eth</a
+            >
+            on ENS and
           </p>
 
+          <p>
+            <a
+              href="https://farcaster.xyz/zubyoha.eth"
+              style="text-decoration: underline; font-weight: bold"
+            >
+              Farcaster,</a
+            >
+
+            <a
+              href="https://highlight.xyz/user/@zubyoha.eth"
+              style="text-decoration: underline; font-weight: bold"
+            >
+              Highlight,</a
+            >
+            <a
+              href="https://zora.co/@zubyoha"
+              style="text-decoration: underline; font-weight: bold"
+            >
+              Zora,</a
+            >
+            <a
+              href="https://paragraph.com/@zubyoha"
+              style="text-decoration: underline; font-weight: bold"
+            >
+              Paragraph,</a
+            >
+            &amp;
+            <a
+              href="https://mirror.xyz/zubyoha.eth"
+              style="text-decoration: underline; font-weight: bold"
+              >Mirror.</a
+            >
+          </p>
+          <hr />
+
           <nav>
-            <ul>
+            <ul style="font-size: 0.7em">
               <li>
                 <a
                   target="_blank"
@@ -122,6 +161,14 @@
                   href="https://t.me/zubyoha"
                   class="icon brands fa-telegram"
                   ><span class="label">Telegram</span></a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://discord.com/users/1016133562073878588"
+                  class="icon brands fa-discord"
+                  ><span class="label">Discord</span></a
                 >
               </li>
               <li>
@@ -145,9 +192,24 @@
         </header>
       </div>
     </div>
+    <!-- Footer -->
+    <footer id="footer" style="text-align: center; padding: 1px">
+      <p>
+        &copy; <span id="currentDate"></span> Zuby Oha™
+        <img
+          src="https://res.cloudinary.com/djxo8hwtc/image/upload/c_pad,w_10,h_10/v1725497898/a0a91b2e55163486e40b81fe76307792_1_hooinl_c_fill_f_png_g_face_h_320_w_320_r_max_ungoqh.png"
+          alt="Trademark Logo"
+          style="vertical-align: middle"
+        />
+      </p>
+    </footer>
+
     <script>
       window.onload = function () {
         document.body.classList.remove("is-preload");
+        const currentDate = new Date();
+        const formattedYear = currentDate.getFullYear();
+        document.getElementById("currentDate").textContent = formattedYear;
       };
       window.ontouchmove = function () {
         return false;
