@@ -64,5 +64,15 @@ node_modules/
 # dotenv environment variables file
 .env
 
-# HTML files
+# HTML files - specific exclusions
 *.html
+
+# But allow these specific HTML files for GitHub Pages
+!index.html
+!public/index.html
+!dist/*.html
+
+# Or alternatively, if you want to hide source HTML but allow built HTML:
+# src/*.html
+# templates/*.html
+# private/*.html
