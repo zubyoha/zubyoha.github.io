@@ -243,7 +243,17 @@
         >
         Store {coming soon} •
         -->
-
+        <a
+          href="https://web3.bio/zubyoha.eth"
+          style="
+            font-style: italic;
+            color: whitesmoke;
+            text-decoration: underline;
+            font-weight: bold;
+          "
+          >Web3Bio</a
+        >
+        •
         <a
           href="mailto:zubyoha@proton.me"
           style="
@@ -252,9 +262,8 @@
             text-decoration: underline;
             font-weight: bold;
           "
+          >Contact</a
         >
-          Contact
-        </a>
         •
         <a
           href="https://paragraph.com/@zubyoha"
@@ -264,9 +273,14 @@
             text-decoration: underline;
             font-weight: bold;
           "
+          >Newsletter</a
         >
-          Blog</a
-        >
+        •
+        <span
+          id="currentDate"
+          style="color: whitesmoke; font-style: italic; font-weight: bold"
+        ></span>
+
         <!-- and
        <a
           href="https://www.etsy.com/shop/Zubyoha"
@@ -286,8 +300,11 @@
         document.body.classList.remove("is-preload");
         const currentDate = new Date();
         const formattedYear = currentDate.getFullYear();
-        document.getElementById("currentDate").textContent = formattedYear;
+        document.getElementById(
+          "currentDate"
+        ).textContent = `© ${formattedYear}`;
       };
+
       window.ontouchmove = function () {
         return false;
       };
